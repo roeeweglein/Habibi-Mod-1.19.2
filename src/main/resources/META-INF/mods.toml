@@ -1,0 +1,27 @@
+
+modLoader="javafml" #mandatory
+loaderVersion="[43,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+[[mods]] #mandatory
+modId="habibi_mod" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Habibi Mod " #mandatory
+logoFile="examplemod.png" #optional
+credits="Habibi Mod, made by rweg613" #optional
+authors="rweg613" #optional
+description='''
+Attention bruzzers! Habibi Mod great mod allahmdulila! Mahsallah you will find gret happiness in Habibi Mod! Support by great king Suleiman.
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.habibi_mod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[43,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.habibi_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
